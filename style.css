@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+}
+.container {
+    width: 800px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+}
+h1 {
+    color: blue;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+h1,
+h2,
+h3 {
+    color: #1098ad;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+    font-family: sans-serif;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    /* display: inline; */
+}
+
+ul,
+ol {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+/* footer p {
+    font-size: 16px;
+} */
+
+/* article header p {
+    font-style: italic;
+} */
+
+#author {
+    font-style: italic;
+    font-size: 18px;
+}
+
+#copyright {
+    font-size: 16px;
+}
+.related-author {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* aside ul {
+    list-style: none;
+} */
+
+#related {
+    list-style: none;
+}
+nav {
+    font-size: 18px;
+    padding-left: 80px;
+}
+nav a:link {
+    text-decoration: none;
+   
+    margin-right: 30px;
+    color: #1098ad;
+    font-size: 14px;
+    /* background-color: red;
+    margin: 20px;
+    padding: 20px;
+    display: block; */
+}
+article {
+    margin-bottom: 60px;
+}
+aside {
+    background-color: #e5e5e5ec;
+    border-top: 5px solid #176b6b;
+    border-bottom: 5px solid #176b6b;
+    padding: 50px 0;
+    width: 500px;
+}
+.main-header {
+    background-color: #cacaca;
+    /* padding: 20px; */
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    padding: 20px 40px;
+    /* height: 80px; */
+}
+
+.post-header {
+    margin-bottom: 10px;
+}
+
+.post-img {
+    width: 100%;
+    height: auto;
+    
+}
+
+#like {
+    font-size: 22px;
+    padding: 20px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
